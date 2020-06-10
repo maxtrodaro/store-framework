@@ -3,8 +3,6 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
-      "flex-layout.col#left",
-      "flex-layout.col#right",
       "shelf.relatedProducts"
     ]
   },
@@ -63,7 +61,8 @@
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
-      "showValueForVariation": "all"
+      "showValueForVariation": "image",
+      "showVariationsErrorMessage": true
     }
   }
 }
