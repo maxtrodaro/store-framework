@@ -1,0 +1,23 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#landingbanner": {
+    "props": {
+      "src": "https://chromatox.com.br/assets/img/caminhao2.jpg",
+      "minWidth": "100%"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "orderByField": "OrderByReleaseDateDESC",
+      "hideUnavailableItems": true,
+      "maxItemsDepartment": 8,
+      "queryField": "Câmera retro azul superior",
+      "mapField": "ft"
+    }
+  }
+}
