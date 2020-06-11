@@ -16,7 +16,7 @@
       "querySchema": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsDepartment": 8,
+        "maxItemsPerPage": 8,
         "queryField": "Câmera retro azul superior",
         "mapField": "ft"
       }
