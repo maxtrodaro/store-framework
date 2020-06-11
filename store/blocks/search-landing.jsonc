@@ -13,11 +13,13 @@
   },
   "search-result-layout.customQuery": {
     "props": {
-      "orderByField": "OrderByReleaseDateDESC",
-      "hideUnavailableItems": true,
-      "maxItemsDepartment": 8,
-      "queryField": "Câmera retro azul superior",
-      "mapField": "ft"
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsDepartment": 8,
+        "queryField": "Câmera retro azul superior",
+        "mapField": "ft"
+      }
     }
   }
 }
